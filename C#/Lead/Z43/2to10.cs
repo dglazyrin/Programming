@@ -23,7 +23,7 @@ double Number10To2(int X, byte Y)        // Метод перевода числ
      return res;
 }
 
-int myNumber10 = new Random().Next(1,10000);   //Заглушка для проверки
+int myNumber10 = 173;//new Random().Next(1,10000);   //Заглушка для проверки
 byte digitNumber = Digit2Number(myNumber10);
 double myNumber2 = Number10To2(myNumber10,digitNumber);
 Console.WriteLine("У нас есть число - " + myNumber10 + " у него " + digitNumber + " бит.");
