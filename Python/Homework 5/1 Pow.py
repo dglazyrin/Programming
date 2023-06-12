@@ -1,5 +1,5 @@
 def stepen(x,y,z=1):
-     if y<1 or x<2:
+     if y==0 or x<2:
           return z
      z*=x
      y-=1
